@@ -6,13 +6,13 @@
 </version>
 
 <headers>
-    /usr/include/KF5/KDGantt2/
-    /usr/include/KF5/kdgantt2/
-    /usr/include/KF5/kdgantt2_version.h
+    /usr/include/KF5/CalendarSupport/
+    /usr/include/KF5/calendarsupport/
+    /usr/include/KF5/calendarsupport_version.h
 </headers>
 
 <libs>
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5KDGantt2.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5CalendarSupport.so
 </libs>
 
 <gcc_options>
