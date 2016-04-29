@@ -49,7 +49,11 @@ Package: libkf5calendarsupport-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5calendarsupport5 (= ${binary:Version}),
+Depends: libkf5akonadi-dev (>= 4:5.2.0~),
+         libkf5akonadicalendar-dev (>= 5.2.0~),
+         libkf5calendarsupport5 (= ${binary:Version}),
+         libkf5identitymanagement-dev (>= 5.2.0~),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM Calendar support - devel files
