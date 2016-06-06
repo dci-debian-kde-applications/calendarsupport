@@ -1,9 +1,7 @@
-libkf5calendarsupport (4:16.04.1-1~1.gbpc59221) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c59221ad07aa6b9ba4fbf5390d5f49c73c56750c **
+libkf5calendarsupport (4:16.04.1-1) experimental; urgency=medium
 
   * Initial release.
   * Add missing Breaks/Replaces
-  * UNRELEASED
+  * Add new upstream patch: upstream_add_copying_files.patch
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:56:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 10:14:12 +0200
