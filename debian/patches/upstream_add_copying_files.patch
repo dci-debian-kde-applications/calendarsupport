@@ -4,22 +4,6 @@ Date:   Tue May 24 22:15:51 2016 +0200
 
     Add COPYING files
 
-diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 9c1dd27..4d7e9a7 100644
---- a/CMakeLists.txt
-+++ b/CMakeLists.txt
-@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.12)
- 
- project(calendarsupport)
- 
--set(KF5_VERSION "5.19.0")
-+set(KF5_VERSION "5.22.0")
- find_package(ECM ${KF5_VERSION} CONFIG REQUIRED)
- set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
- set(LIBRARY_NAMELINK)
-diff --git a/COPYING b/COPYING
-new file mode 100644
-index 0000000..5185fd3
 --- /dev/null
 +++ b/COPYING
 @@ -0,0 +1,346 @@
@@ -369,9 +353,6 @@ index 0000000..5185fd3
 +consider it more useful to permit linking proprietary applications with the
 +library.  If this is what you want to do, use the GNU Library General
 +Public License instead of this License.
-diff --git a/COPYING.LIB b/COPYING.LIB
-new file mode 100644
-index 0000000..2d2d780
 --- /dev/null
 +++ b/COPYING.LIB
 @@ -0,0 +1,510 @@
