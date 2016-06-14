@@ -1,9 +1,22 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 15 Jun 2016 00:56:12 +0200
+Subject: upstream_add_copying_files
+
 commit 2c6e111cd9a45e7d0655e4efef32acc7be1f5b2e
 Author: Montel Laurent <montel@kde.org>
 Date:   Tue May 24 22:15:51 2016 +0200
 
     Add COPYING files
+---
+ COPYING     | 346 +++++++++++++++++++++++++++++++++++++++++
+ COPYING.LIB | 510 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 856 insertions(+)
+ create mode 100644 COPYING
+ create mode 100644 COPYING.LIB
 
+diff --git a/COPYING b/COPYING
+new file mode 100644
+index 0000000..5185fd3
 --- /dev/null
 +++ b/COPYING
 @@ -0,0 +1,346 @@
@@ -353,6 +366,9 @@ Date:   Tue May 24 22:15:51 2016 +0200
 +consider it more useful to permit linking proprietary applications with the
 +library.  If this is what you want to do, use the GNU Library General
 +Public License instead of this License.
+diff --git a/COPYING.LIB b/COPYING.LIB
+new file mode 100644
+index 0000000..2d2d780
 --- /dev/null
 +++ b/COPYING.LIB
 @@ -0,0 +1,510 @@
