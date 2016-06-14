@@ -1,3 +1,11 @@
+libkf5calendarsupport (4:16.04.2-1~1.gbp6e789c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6e789cf88e220e2043265141f49b86889973be73 **
+
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 00:56:23 +0200
+
 libkf5calendarsupport (4:16.04.1-1) experimental; urgency=medium
 
   * Initial release.
