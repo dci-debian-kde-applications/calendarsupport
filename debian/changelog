@@ -1,3 +1,11 @@
+libkf5calendarsupport (4:16.04.3-1~1.gbp4aee5e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4aee5eeb197cc53fcd07cabff97f63fd2e784caa **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:56:21 +0200
+
 libkf5calendarsupport (4:16.04.2-2) unstable; urgency=low
 
   * Release to unstable.
