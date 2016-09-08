@@ -1,6 +1,6 @@
-libkf5calendarsupport (4:16.08.0-1~1.gbpe18e8f) UNRELEASED; urgency=medium
+libkf5calendarsupport (4:16.08.1-1~1.gbpe89a06) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e18e8f007c7d1c612afcfeab17c122c638d3d8da **
+  ** SNAPSHOT build @e89a06b32bb43ba561ce18a977f18d321fd8c2a7 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @4aee5eeb197cc53fcd07cabff97f63fd2e784caa **
@@ -10,8 +10,9 @@ libkf5calendarsupport (4:16.08.0-1~1.gbpe18e8f) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:56:13 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:56:36 +0200
 
 libkf5calendarsupport (4:16.04.2-2) unstable; urgency=low
 
