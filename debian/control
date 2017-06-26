@@ -41,6 +41,7 @@ Description: KDE PIM Calendar support - library
 
 Package: libkf5calendarsupport-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: korganizer (<= 4:16.04), ${kde-l10n:all}
 Replaces: korganizer (<= 4:16.04), ${kde-l10n:all}
@@ -57,6 +58,7 @@ Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5akonadicalendar-dev (>= 5.2.0~),
          libkf5calendarsupport5 (= ${binary:Version}),
          libkf5identitymanagement-dev (>= 5.2.0~),
+         libkf5mime-dev,
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
