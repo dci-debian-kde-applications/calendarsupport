@@ -1,3 +1,4 @@
-etc/xdg/calendarsupport.renamecategories
 etc/xdg/calendarsupport.categories
+etc/xdg/calendarsupport.renamecategories
 usr/share/kservicetypes5/calendarplugin.desktop
+usr/share/locale/
