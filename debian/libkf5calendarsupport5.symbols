@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI9QDateTimeEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
@@ -23,6 +23,12 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZN15CalendarSupport10hasJournalERKN7Akonadi4ItemE@Base 4:15.12
  _ZN15CalendarSupport10incidencesEPK9QMimeDataRKN9KDateTime4SpecE@Base 4:15.12
  _ZN15CalendarSupport11displayNameEPN7Akonadi11ETMCalendarERKNS0_10CollectionE@Base 4:15.12
+ _ZN15CalendarSupport12FreeBusyItem11setFreeBusyERK14QSharedPointerIN8KCalCore8FreeBusyEE@Base 4:17.08.0
+ _ZN15CalendarSupport12FreeBusyItem13startDownloadEb@Base 4:17.08.0
+ _ZN15CalendarSupport12FreeBusyItem16setIsDownloadingEb@Base 4:17.08.0
+ _ZN15CalendarSupport12FreeBusyItem16setUpdateTimerIDEi@Base 4:17.08.0
+ _ZN15CalendarSupport12FreeBusyItemC1ERK14QSharedPointerIN8KCalCore8AttendeeEEP7QWidget@Base 4:17.08.0
+ _ZN15CalendarSupport12FreeBusyItemC2ERK14QSharedPointerIN8KCalCore8AttendeeEEP7QWidget@Base 4:17.08.0
  _ZN15CalendarSupport12hasIncidenceERKN7Akonadi4ItemE@Base 4:15.12
  _ZN15CalendarSupport12todoItemUrlsEPK9QMimeData@Base 4:15.12
  _ZN15CalendarSupport13ArchiveDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
@@ -91,6 +97,16 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZN15CalendarSupport14createMimeDataERK7QVectorIN7Akonadi4ItemEERKN9KDateTime4SpecE@Base 4:15.12
  _ZN15CalendarSupport14createMimeDataERKN7Akonadi4ItemERKN9KDateTime4SpecE@Base 4:15.12
  _ZN15CalendarSupport14itemsFromModelEPK18QAbstractItemModelRK11QModelIndexii@Base 4:15.12
+ _ZN15CalendarSupport15FreePeriodModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModel11qt_metacastEPKc@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModel16staticMetaObjectE@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModel17splitPeriodsByDayERK7QVectorIN8KCalCore6PeriodEE@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModel18slotNewFreePeriodsERK7QVectorIN8KCalCore6PeriodEE@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModelC1EP7QObject@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModelC2EP7QObject@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModelD0Ev@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModelD1Ev@Base 4:17.08.0
+ _ZN15CalendarSupport15FreePeriodModelD2Ev@Base 4:17.08.0
  _ZN15CalendarSupport15IdentityManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN15CalendarSupport15IdentityManager11qt_metacastEPKc@Base 4:15.12
  _ZN15CalendarSupport15IdentityManager16staticMetaObjectE@Base 4:15.12
@@ -114,6 +130,20 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZN15CalendarSupport15IncidenceViewerD1Ev@Base 4:15.12
  _ZN15CalendarSupport15IncidenceViewerD2Ev@Base 4:15.12
  _ZN15CalendarSupport15saveAttachmentsERKN7Akonadi4ItemEP7QWidget@Base 4:15.12
+ _ZN15CalendarSupport16FreeBusyCalendar11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendar11qt_metacastEPKc@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendar13onRowsChangedERK11QModelIndexS3_@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendar13onRowsRemovedERK11QModelIndexii@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendar14onRowsInsertedERK11QModelIndexii@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendar15deleteAllEventsEv@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendar15onLayoutChangedEv@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendar16staticMetaObjectE@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendar8setModelEPNS_17FreeBusyItemModelE@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendarC1EP7QObject@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendarC2EP7QObject@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendarD0Ev@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendarD1Ev@Base 4:17.08.0
+ _ZN15CalendarSupport16FreeBusyCalendarD2Ev@Base 4:17.08.0
  _ZN15CalendarSupport16selectCollectionEP7QWidgetRiRK11QStringListRKN7Akonadi10CollectionE@Base 4:15.12
  _ZN15CalendarSupport17CalPrintIncidence10loadConfigEv@Base 4:15.12
  _ZN15CalendarSupport17CalPrintIncidence10saveConfigEv@Base 4:15.12
@@ -127,6 +157,29 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZN15CalendarSupport17CalPrintIncidenceD0Ev@Base 4:15.12
  _ZN15CalendarSupport17CalPrintIncidenceD1Ev@Base 4:15.12
  _ZN15CalendarSupport17CalPrintIncidenceD2Ev@Base 4:15.12
+ _ZN15CalendarSupport17FreeBusyItemModel10autoReloadEv@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel10removeItemERK14QSharedPointerINS_12FreeBusyItemEE@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel10timerEventEP11QTimerEvent@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel11qt_metacastEPKc@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel12cancelReloadEv@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel12manualReloadEv@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel13triggerReloadEv@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel14removeAttendeeERK14QSharedPointerIN8KCalCore8AttendeeEE@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel16containsAttendeeERK14QSharedPointerIN8KCalCore8AttendeeEE@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel16staticMetaObjectE@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel18setFreeBusyPeriodsERK11QModelIndexRK7QVectorIN8KCalCore14FreeBusyPeriodEE@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel18slotInsertFreeBusyERK14QSharedPointerIN8KCalCore8FreeBusyEERK7QString@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel18updateFreeBusyDataERK14QSharedPointerINS_12FreeBusyItemEE@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel5clearEv@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel6reloadEv@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel7addItemERK14QSharedPointerINS_12FreeBusyItemEE@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModel9removeRowEi@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModelC1EP7QObject@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModelC2EP7QObject@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModelD0Ev@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModelD1Ev@Base 4:17.08.0
+ _ZN15CalendarSupport17FreeBusyItemModelD2Ev@Base 4:17.08.0
  _ZN15CalendarSupport17calendarSingletonEb@Base 4:15.12
  _ZN15CalendarSupport17incidenceItemUrlsEPK9QMimeData@Base 4:15.12
  _ZN15CalendarSupport19CollectionSelection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
@@ -175,13 +228,11 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZN15CalendarSupport9KCalPrefs10fullEmailsEv@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs11qt_metacastEPKc@Base 4:15.12
- _ZN15CalendarSupport9KCalPrefs11setTimeSpecERKN9KDateTime4SpecE@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs12setDayBeginsERK9QDateTime@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs14usrSetDefaultsEv@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs16fillMailDefaultsEv@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs16setCategoryColorERK7QStringRK6QColor@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs16staticMetaObjectE@Base 4:15.12
- _ZN15CalendarSupport9KCalPrefs18setTimeZoneDefaultEv@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs20setDefaultCalendarIdEx@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs5emailEv@Base 4:15.12
  _ZN15CalendarSupport9KCalPrefs7usrReadEv@Base 4:15.12
@@ -198,63 +249,16 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZN15CalendarSupport9KCalPrefsD2Ev@Base 4:15.12
  _ZN15CalendarSupport9canDecodeEPK9QMimeData@Base 4:15.12
  _ZN15CalendarSupport9incidenceERKN7Akonadi4ItemE@Base 4:15.12
- _ZN4KPIM12FreeBusyItem11setFreeBusyERK14QSharedPointerIN8KCalCore8FreeBusyEE@Base 4:15.12
- _ZN4KPIM12FreeBusyItem13startDownloadEb@Base 4:15.12
- _ZN4KPIM12FreeBusyItem16setIsDownloadingEb@Base 4:15.12
- _ZN4KPIM12FreeBusyItem16setUpdateTimerIDEi@Base 4:15.12
- _ZN4KPIM12FreeBusyItemC1ERK14QSharedPointerIN8KCalCore8AttendeeEEP7QWidget@Base 4:15.12
- _ZN4KPIM12FreeBusyItemC2ERK14QSharedPointerIN8KCalCore8AttendeeEEP7QWidget@Base 4:15.12
- _ZN4KPIM15FreePeriodModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4KPIM15FreePeriodModel11qt_metacastEPKc@Base 4:15.12
- _ZN4KPIM15FreePeriodModel16staticMetaObjectE@Base 4:15.12
- _ZN4KPIM15FreePeriodModel17splitPeriodsByDayERK7QVectorIN8KCalCore6PeriodEE@Base 4:15.12
- _ZN4KPIM15FreePeriodModel18slotNewFreePeriodsERK7QVectorIN8KCalCore6PeriodEE@Base 4:15.12
- _ZN4KPIM15FreePeriodModelC1EP7QObject@Base 4:15.12
- _ZN4KPIM15FreePeriodModelC2EP7QObject@Base 4:15.12
- _ZN4KPIM15FreePeriodModelD0Ev@Base 4:15.12
- _ZN4KPIM15FreePeriodModelD1Ev@Base 4:15.12
- _ZN4KPIM15FreePeriodModelD2Ev@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar11qt_metacastEPKc@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar13onRowsChangedERK11QModelIndexS3_@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar13onRowsRemovedERK11QModelIndexii@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar14onRowsInsertedERK11QModelIndexii@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar15deleteAllEventsEv@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar15onLayoutChangedEv@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar16staticMetaObjectE@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendar8setModelEPNS_17FreeBusyItemModelE@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendarC1EP7QObject@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendarC2EP7QObject@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendarD0Ev@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendarD1Ev@Base 4:15.12
- _ZN4KPIM16FreeBusyCalendarD2Ev@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel10autoReloadEv@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel10removeItemERK14QSharedPointerINS_12FreeBusyItemEE@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel10timerEventEP11QTimerEvent@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel11qt_metacastEPKc@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel12cancelReloadEv@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel12manualReloadEv@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel13triggerReloadEv@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel14removeAttendeeERK14QSharedPointerIN8KCalCore8AttendeeEE@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel16containsAttendeeERK14QSharedPointerIN8KCalCore8AttendeeEE@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel16staticMetaObjectE@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel18setFreeBusyPeriodsERK11QModelIndexRK7QVectorIN8KCalCore14FreeBusyPeriodEE@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel18slotInsertFreeBusyERK14QSharedPointerIN8KCalCore8FreeBusyEERK7QString@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel18updateFreeBusyDataERK14QSharedPointerINS_12FreeBusyItemEE@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel5clearEv@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel6reloadEv@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel7addItemERK14QSharedPointerINS_12FreeBusyItemEE@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModel9removeRowEi@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModelC1EP7QObject@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModelC2EP7QObject@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModelD0Ev@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModelD1Ev@Base 4:15.12
- _ZN4KPIM17FreeBusyItemModelD2Ev@Base 4:15.12
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:17.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI9QDateTimeEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
  _ZNK15CalendarSupport10CalPrinter10metaObjectEv@Base 4:15.12
+ _ZNK15CalendarSupport12FreeBusyItem13isDownloadingEv@Base 4:17.08.0
+ _ZNK15CalendarSupport12FreeBusyItem13updateTimerIDEv@Base 4:17.08.0
+ _ZNK15CalendarSupport12FreeBusyItem5emailEv@Base 4:17.08.0
+ _ZNK15CalendarSupport12FreeBusyItem8attendeeEv@Base 4:17.08.0
+ _ZNK15CalendarSupport12FreeBusyItem8freeBusyEv@Base 4:17.08.0
  _ZNK15CalendarSupport13ArchiveDialog10metaObjectEv@Base 4:15.12
  _ZNK15CalendarSupport13EventArchiver10metaObjectEv@Base 4:15.12
  _ZNK15CalendarSupport13EventArchiver17isSubTreeCompleteERK14QSharedPointerIN7Akonadi11ETMCalendarEERKS1_IN8KCalCore4TodoEERK5QDate11QStringList@Base 4:15.12
@@ -263,11 +267,30 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZNK15CalendarSupport14CategoryConfig10metaObjectEv@Base 4:15.12
  _ZNK15CalendarSupport14CategoryConfig10readColorsEv@Base 4:15.12
  _ZNK15CalendarSupport14CategoryConfig16customCategoriesEv@Base 4:15.12
+ _ZNK15CalendarSupport15FreePeriodModel10headerDataEiN2Qt11OrientationEi@Base 4:17.08.0
+ _ZNK15CalendarSupport15FreePeriodModel10metaObjectEv@Base 4:17.08.0
+ _ZNK15CalendarSupport15FreePeriodModel10tooltipifyEi@Base 4:17.08.0
+ _ZNK15CalendarSupport15FreePeriodModel11columnCountERK11QModelIndex@Base 4:17.08.0
+ _ZNK15CalendarSupport15FreePeriodModel3dayEi@Base 4:17.08.0
+ _ZNK15CalendarSupport15FreePeriodModel4dataERK11QModelIndexi@Base 4:17.08.0
+ _ZNK15CalendarSupport15FreePeriodModel4dateEi@Base 4:17.08.0
+ _ZNK15CalendarSupport15FreePeriodModel8rowCountERK11QModelIndex@Base 4:17.08.0
+ _ZNK15CalendarSupport15FreePeriodModel9stringifyEi@Base 4:17.08.0
  _ZNK15CalendarSupport15IdentityManager10metaObjectEv@Base 4:15.12
  _ZNK15CalendarSupport15IncidenceViewer10activeDateEv@Base 4:15.12
  _ZNK15CalendarSupport15IncidenceViewer10metaObjectEv@Base 4:15.12
  _ZNK15CalendarSupport15IncidenceViewer15attachmentModelEv@Base 4:15.12
  _ZNK15CalendarSupport15IncidenceViewer9incidenceEv@Base 4:15.12
+ _ZNK15CalendarSupport16FreeBusyCalendar10metaObjectEv@Base 4:17.08.0
+ _ZNK15CalendarSupport16FreeBusyCalendar5modelEv@Base 4:17.08.0
+ _ZNK15CalendarSupport16FreeBusyCalendar8calendarEv@Base 4:17.08.0
+ _ZNK15CalendarSupport17FreeBusyItemModel10headerDataEiN2Qt11OrientationEi@Base 4:17.08.0
+ _ZNK15CalendarSupport17FreeBusyItemModel10metaObjectEv@Base 4:17.08.0
+ _ZNK15CalendarSupport17FreeBusyItemModel11columnCountERK11QModelIndex@Base 4:17.08.0
+ _ZNK15CalendarSupport17FreeBusyItemModel4dataERK11QModelIndexi@Base 4:17.08.0
+ _ZNK15CalendarSupport17FreeBusyItemModel5indexEiiRK11QModelIndex@Base 4:17.08.0
+ _ZNK15CalendarSupport17FreeBusyItemModel6parentERK11QModelIndex@Base 4:17.08.0
+ _ZNK15CalendarSupport17FreeBusyItemModel8rowCountERK11QModelIndex@Base 4:17.08.0
  _ZNK15CalendarSupport19CollectionSelection10metaObjectEv@Base 4:15.12
  _ZNK15CalendarSupport19CollectionSelection12hasSelectionEv@Base 4:15.12
  _ZNK15CalendarSupport19CollectionSelection19selectedCollectionsEv@Base 4:15.12
@@ -285,30 +308,6 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZNK15CalendarSupport9KCalPrefs16hasCategoryColorERK7QString@Base 4:15.12
  _ZNK15CalendarSupport9KCalPrefs17defaultCalendarIdEv@Base 4:15.12
  _ZNK15CalendarSupport9KCalPrefs9dayBeginsEv@Base 4:15.12
- _ZNK4KPIM12FreeBusyItem13isDownloadingEv@Base 4:15.12
- _ZNK4KPIM12FreeBusyItem13updateTimerIDEv@Base 4:15.12
- _ZNK4KPIM12FreeBusyItem5emailEv@Base 4:15.12
- _ZNK4KPIM12FreeBusyItem8attendeeEv@Base 4:15.12
- _ZNK4KPIM12FreeBusyItem8freeBusyEv@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel10headerDataEiN2Qt11OrientationEi@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel10metaObjectEv@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel10tooltipifyEi@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel11columnCountERK11QModelIndex@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel3dayEi@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel4dataERK11QModelIndexi@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel4dateEi@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel8rowCountERK11QModelIndex@Base 4:15.12
- _ZNK4KPIM15FreePeriodModel9stringifyEi@Base 4:15.12
- _ZNK4KPIM16FreeBusyCalendar10metaObjectEv@Base 4:15.12
- _ZNK4KPIM16FreeBusyCalendar5modelEv@Base 4:15.12
- _ZNK4KPIM16FreeBusyCalendar8calendarEv@Base 4:15.12
- _ZNK4KPIM17FreeBusyItemModel10headerDataEiN2Qt11OrientationEi@Base 4:15.12
- _ZNK4KPIM17FreeBusyItemModel10metaObjectEv@Base 4:15.12
- _ZNK4KPIM17FreeBusyItemModel11columnCountERK11QModelIndex@Base 4:15.12
- _ZNK4KPIM17FreeBusyItemModel4dataERK11QModelIndexi@Base 4:15.12
- _ZNK4KPIM17FreeBusyItemModel5indexEiiRK11QModelIndex@Base 4:15.12
- _ZNK4KPIM17FreeBusyItemModel6parentERK11QModelIndex@Base 4:15.12
- _ZNK4KPIM17FreeBusyItemModel8rowCountERK11QModelIndex@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN8KCalCore9IncidenceEEEEbv@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN8KCalCore9IncidenceEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN8KCalCore4TodoEEEENSt9enable_ifIXsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEPKi@Base 4:15.12
@@ -325,18 +324,18 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZTIN15CalendarSupport13MessageWidgetE@Base 4:15.12
  _ZTIN15CalendarSupport13PluginFactoryE@Base 4:15.12
  _ZTIN15CalendarSupport14CategoryConfigE@Base 4:15.12
+ _ZTIN15CalendarSupport15FreePeriodModelE@Base 4:17.08.0
  _ZTIN15CalendarSupport15IdentityManagerE@Base 4:15.12
  _ZTIN15CalendarSupport15IncidenceViewerE@Base 4:15.12
+ _ZTIN15CalendarSupport16FreeBusyCalendarE@Base 4:17.08.0
  _ZTIN15CalendarSupport17CalPrintIncidenceE@Base 4:15.12
+ _ZTIN15CalendarSupport17FreeBusyItemModelE@Base 4:17.08.0
  _ZTIN15CalendarSupport19CollectionSelectionE@Base 4:15.12
  _ZTIN15CalendarSupport23CategoryHierarchyReaderE@Base 4:15.12
  _ZTIN15CalendarSupport32CategoryHierarchyReaderQComboBoxE@Base 4:15.12
  _ZTIN15CalendarSupport34CategoryHierarchyReaderQTreeWidgetE@Base 4:15.12
  _ZTIN15CalendarSupport8CellItemE@Base 4:15.12
  _ZTIN15CalendarSupport9KCalPrefsE@Base 4:15.12
- _ZTIN4KPIM15FreePeriodModelE@Base 4:15.12
- _ZTIN4KPIM16FreeBusyCalendarE@Base 4:15.12
- _ZTIN4KPIM17FreeBusyItemModelE@Base 4:15.12
  _ZTSN15CalendarSupport10CalPrinterE@Base 4:15.12
  _ZTSN15CalendarSupport13ArchiveDialogE@Base 4:15.12
  _ZTSN15CalendarSupport13EventArchiverE@Base 4:15.12
@@ -344,18 +343,18 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZTSN15CalendarSupport13MessageWidgetE@Base 4:15.12
  _ZTSN15CalendarSupport13PluginFactoryE@Base 4:15.12
  _ZTSN15CalendarSupport14CategoryConfigE@Base 4:15.12
+ _ZTSN15CalendarSupport15FreePeriodModelE@Base 4:17.08.0
  _ZTSN15CalendarSupport15IdentityManagerE@Base 4:15.12
  _ZTSN15CalendarSupport15IncidenceViewerE@Base 4:15.12
+ _ZTSN15CalendarSupport16FreeBusyCalendarE@Base 4:17.08.0
  _ZTSN15CalendarSupport17CalPrintIncidenceE@Base 4:15.12
+ _ZTSN15CalendarSupport17FreeBusyItemModelE@Base 4:17.08.0
  _ZTSN15CalendarSupport19CollectionSelectionE@Base 4:15.12
  _ZTSN15CalendarSupport23CategoryHierarchyReaderE@Base 4:15.12
  _ZTSN15CalendarSupport32CategoryHierarchyReaderQComboBoxE@Base 4:15.12
  _ZTSN15CalendarSupport34CategoryHierarchyReaderQTreeWidgetE@Base 4:15.12
  _ZTSN15CalendarSupport8CellItemE@Base 4:15.12
  _ZTSN15CalendarSupport9KCalPrefsE@Base 4:15.12
- _ZTSN4KPIM15FreePeriodModelE@Base 4:15.12
- _ZTSN4KPIM16FreeBusyCalendarE@Base 4:15.12
- _ZTSN4KPIM17FreeBusyItemModelE@Base 4:15.12
  _ZTVN15CalendarSupport10CalPrinterE@Base 4:15.12
  _ZTVN15CalendarSupport13ArchiveDialogE@Base 4:15.12
  _ZTVN15CalendarSupport13EventArchiverE@Base 4:15.12
@@ -363,17 +362,17 @@ libKF5CalendarSupport.so.5 libkf5calendarsupport5 #MINVER#
  _ZTVN15CalendarSupport13MessageWidgetE@Base 4:15.12
  _ZTVN15CalendarSupport13PluginFactoryE@Base 4:15.12
  _ZTVN15CalendarSupport14CategoryConfigE@Base 4:15.12
+ _ZTVN15CalendarSupport15FreePeriodModelE@Base 4:17.08.0
  _ZTVN15CalendarSupport15IdentityManagerE@Base 4:15.12
  _ZTVN15CalendarSupport15IncidenceViewerE@Base 4:15.12
+ _ZTVN15CalendarSupport16FreeBusyCalendarE@Base 4:17.08.0
  _ZTVN15CalendarSupport17CalPrintIncidenceE@Base 4:15.12
+ _ZTVN15CalendarSupport17FreeBusyItemModelE@Base 4:17.08.0
  _ZTVN15CalendarSupport19CollectionSelectionE@Base 4:15.12
  _ZTVN15CalendarSupport32CategoryHierarchyReaderQComboBoxE@Base 4:15.12
  _ZTVN15CalendarSupport34CategoryHierarchyReaderQTreeWidgetE@Base 4:15.12
  _ZTVN15CalendarSupport8CellItemE@Base 4:15.12
  _ZTVN15CalendarSupport9KCalPrefsE@Base 4:15.12
- _ZTVN4KPIM15FreePeriodModelE@Base 4:15.12
- _ZTVN4KPIM16FreeBusyCalendarE@Base 4:15.12
- _ZTVN4KPIM17FreeBusyItemModelE@Base 4:15.12
  _ZZZN15CalendarSupport13KCalPrefsBase11setUserNameERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.12
  _ZZZN15CalendarSupport13KCalPrefsBase12setUserEmailERK7QStringENKUlvE_clEvE15qstring_literal@Base 4:15.12
  _ZZZNK15CalendarSupport17CalPrintIncidence9groupNameEvENKUlvE_clEvE15qstring_literal@Base 4:15.12
