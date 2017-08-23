@@ -8,38 +8,27 @@ Build-Depends: cmake (>= 2.8.12~),
                extra-cmake-modules (>= 5.23.0~),
                libkf5akonadi-dev (>= 4:5.3.1~),
                libkf5akonadicalendar-dev (>= 5.3.1~),
+               libkf5akonadicontact-dev,
                libkf5akonadimime-dev (>= 5.3.1~),
                libkf5calendarcore-dev (>= 5.3.1~),
                libkf5calendarutils-dev (>= 5.3.1~),
                libkf5codecs-dev (>= 5.23.0~),
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5holidays-dev (>= 5.3.1~),
                libkf5i18n-dev (>= 5.23.0~),
                libkf5identitymanagement-dev (>= 5.3.1~),
+               libkf5imap-dev,
                libkf5kdepimdbusinterfaces-dev (>= 5.3.1~),
                libkf5mime-dev (>= 5.3.1~),
-               libkf5pimcommon-dev (>= 5.3.1~),
-               libkf5akonadicontact-dev,
-               libkf5contacteditor-dev (>= 17.04.0~),
-               libkf5imap-dev,
                libkf5pimcommon-dev (>= 5.2.0~),
+               libkf5pimcommon-dev (>= 5.3.1~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.5.0~),
-               qttools5-dev (>= 5.5.0~)
+               qttools5-dev (>= 5.5.0~),
 Standards-Version: 4.1.0
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/calendarsupport.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/calendarsupport.git
-
-Package: libkf5calendarsupport5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5calendarsupport-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: KDE PIM Calendar support - library
- This library provides calendar support for KDE PIM.
- .
- This package provides the shared libraries.
 
 Package: libkf5calendarsupport-data
 Architecture: all
@@ -60,11 +49,22 @@ Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5akonadicalendar-dev (>= 5.3.1~),
          libkf5calendarsupport5 (= ${binary:Version}),
          libkf5identitymanagement-dev (>= 5.3.1~),
-         qtbase5-dev (>= 5.5.0~),
          libkf5mime-dev,
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: KDE PIM Calendar support - devel files
  This library provides calendar support for KDE PIM.
  .
  This package provides development files.
+
+Package: libkf5calendarsupport5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5calendarsupport-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM Calendar support - library
+ This library provides calendar support for KDE PIM.
+ .
+ This package provides the shared libraries.
