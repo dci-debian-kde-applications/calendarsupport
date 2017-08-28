@@ -62,6 +62,7 @@ Description: KDE PIM Calendar support - devel files
  This library provides calendar support for KDE PIM.
  .
  This package provides development files.
+Breaks: libkf5eventviews-dev (<< 4:17.08)
 
 Package: libkf5calendarsupport5
 Architecture: any
@@ -73,3 +74,11 @@ Description: KDE PIM Calendar support - library
  This library provides calendar support for KDE PIM.
  .
  This package provides the shared libraries.
+Breaks: akonadiconsole (<< 4:17.08),
+        kdepim-addons (<< 17.08),
+        kmail (<< 4:17.08),
+        konsolekalendar (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5eventviews5 (<< 4:17.08),
+        libkf5incidenceeditor-bin (<< 17.08),
+        libkf5incidenceeditor5 (<< 17.08),
