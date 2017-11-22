@@ -8,10 +8,12 @@ Build-Depends: cmake (>= 2.8.12~),
                extra-cmake-modules (>= 5.19.0~),
                libkf5akonadi-dev (>= 4:5.2.0~),
                libkf5akonadicalendar-dev (>= 5.2.0~),
+               libkf5akonadicontact-dev,
                libkf5akonadimime-dev (>= 5.2.0~),
                libkf5calendarcore-dev (>= 5.2.0~),
                libkf5calendarutils-dev (>= 5.2.0~),
                libkf5codecs-dev (>= 5.19.0~),
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5holidays-dev (>= 5.2.0~),
                libkf5i18n-dev (>= 5.19.0~),
                libkf5identitymanagement-dev (>= 5.2.0~),
@@ -40,6 +42,7 @@ Description: KDE PIM Calendar support - library
 
 Package: libkf5calendarsupport-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: korganizer (<= 4:16.04), ${kde-l10n:all}
 Replaces: korganizer (<= 4:16.04), ${kde-l10n:all}
@@ -56,6 +59,7 @@ Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5akonadicalendar-dev (>= 5.2.0~),
          libkf5calendarsupport5 (= ${binary:Version}),
          libkf5identitymanagement-dev (>= 5.2.0~),
+         libkf5mime-dev,
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
